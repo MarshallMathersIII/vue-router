@@ -1,16 +1,15 @@
 <template>
-  <div class="hi">
+  <div class="hi1">
     <h1>{{ msg }}</h1>
-    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Hi',
+  name: 'Hi1',
   data() {
     return {
-      msg: 'hi'
+      msg: 'hi1'
     }
   },
 }
