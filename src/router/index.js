@@ -16,14 +16,13 @@ export default new Router({
             component: Hello
         },
         {
-            path: '/hi',
-            name: 'Hi',
+            path: '/Hi',
             component: Hi,
             //子路由配置
             children: [
-                { path: '/', component: Hi },
-                { path: 'hi1', component: Hi1 },
-                { path: 'hi2', component: Hi2 }
+                { path: '/',name: 'Hi', component: Hi },
+                { path: 'hi1',name: 'hi1', component: Hi1 },
+                { path: 'hi2',name: 'hi2', component: Hi2 }
 
             ]
         }
